@@ -1,0 +1,9 @@
+[book]
+title = "guv"
+description = "A preemptive userland scheduler for Linux on AArch64 and x86_64"
+language = "en"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/sevki/guv"
+edit-url-template = "https://github.com/sevki/guv/edit/main/book/{path}"
