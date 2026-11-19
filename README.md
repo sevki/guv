@@ -10,3 +10,6 @@ targets build for development and testing but report that they are unsupported
 at runtime. Both supported architectures also support musl; when cross-
 compiling, configure a linker for the target and use the appropriate
 `aarch64-unknown-linux-musl` or `x86_64-unknown-linux-musl` target.
+
+The design is documented in an [mdBook](book/src/SUMMARY.md); build it locally
+with `mdbook serve book`.
